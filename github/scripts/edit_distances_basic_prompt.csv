@@ -1,0 +1,171 @@
+Snippet,Original Code,Edit Distance
+1,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",50
+2,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));",0
+3,"import commit_result;
+import copy_result;
+
+#[on(""bob"")]
+
+bobs_jedis := ""bobs_jedis"";
+jedis := ""jedis"";
+
+commit_result(bobs_jedis, copy_result(new Data { name := jedis }));
+
+println(""Data transfer completed successfully."");",122
+4,"import commit_result;
+import copy_result;
+
+bobs_jedis := ""bobs_jedis"";
+jedis := ""jedis"";
+
+#[on(""bob"")]
+commit_result(bobs_jedis, copy_result(new Data { name := jedis }));",72
+5,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",50
+6,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));",0
+7,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result( new Data { name := ""jedis"" } ));",2
+8,"# Import the copy_result function
+import copy_result;
+
+# Define the variables
+let bobs_jedis = ""bobs_jedis"";
+let jedis = ""jedis"";
+let bob = ""Bob"";
+
+# Define the workflow on Bob's node
+#[on(""Bob"")]
+commit_result(bobs_jedis, copy_result(new Data { name := jedis }));
+
+# Print a confirmation message
+println(""Data transfer completed from Amy to Bob."");",126
+9,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",50
+10,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",50
+11,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));",0
+12,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",50
+13,"import commit_result, copy_result;
+#[on(""bob"")]
+fn transfer_data() {
+    commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+}
+fn main() {
+    transfer_data();
+}",69
+14,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+println(""Data transfer completed successfully."");",50
+15,"import copy_result from ""path/to/copy_result"";
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",77
+16,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",50
+17,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",50
+18,"import copy_result;  #[1]
+
+#[on(""bob"")]  #[2]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",50
+19,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+println(""Data transfer completed successfully."");",50
+20,"import copy_result from 'path/to/copy_result';  # Importing copy_result function
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",77
+21,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer complete."");",36
+22,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",50
+23,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",50
+24,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",50
+25,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+println(""Data transfer completed successfully."");",50
+26,"import commit_result, copy_result;
+
+#[on(""bob"")]
+dataset_name := ""bobs_jedis"";
+new_name := ""jedis"";
+
+commit_result(dataset_name, copy_result(new Data { name := new_name }));
+
+println(""Data transfer executed successfully."");",132
+27,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));",0
+28,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));",0
+29,"import copy_result;
+import println;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));",16
+30,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));",0
