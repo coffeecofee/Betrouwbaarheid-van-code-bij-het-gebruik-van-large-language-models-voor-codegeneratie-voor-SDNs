@@ -1,0 +1,316 @@
+Snippet Index,LCS Length,LCS String,Original Code
+0,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+   import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(
+    new Data {
+        name := ""jedis""
+    }
+));
+
+    "
+1,92,"import copy_result;
+
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+  import copy_result;
+
+commit_result(""bobs_jedis"", copy_result(
+    new Data { name := ""jedis"" }
+));
+
+#[on(""bob"")]
+
+    "
+2,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+    "
+3,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+ import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+  
+    "
+4,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(
+    new Data {
+        name := ""jedis""
+    }
+));
+
+println(""Workflow executed successfully."");
+
+    "
+5,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+   
+    "
+6,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+  
+    "
+7,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+    "
+8,103,"import copy_result;#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result; #[on(""bob"")]
+
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+println(""Data transfer completed successfully."");
+   
+    "
+9,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(
+    new Data { name := ""jedis"" }
+));
+
+    "
+10,92,"import copy_result;
+
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+#[on(""bob"")]
+   
+    "
+11,104,"import copy_result;
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+  
+    "
+12,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_results;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+    "
+13,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+   
+    "
+14,92,"import copy_result;
+
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_results;
+
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+#[on(""bob"")]
+
+    "
+15,92,"import copy_result;
+
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+#[on(""bob"")]
+   
+    "
+16,104,"import copy_result;
+
+#[on(""ob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_results;
+
+#[on(""Bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+  
+    "
+17,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+    "
+18,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result( new Data { name := ""jedis"" }));
+   
+    "
+19,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+    "
+20,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+   
+    "
+21,104,"import copy_result;
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result from ""copy_results"";
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+  
+    "
+22,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+    "
+23,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+   
+    "
+24,92,"import copy_result;
+
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+#[on(""bob"")]
+
+    "
+25,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result( new Data { name := ""jedis"" }));
+   
+    "
+26,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(
+    new Data {
+        name := ""jedis""
+    }
+));
+  
+    "
+27,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+
+    "
+28,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));
+   
+    "
+29,105,"import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(new Data { name := ""jedis"" }));","
+import copy_result;
+
+#[on(""bob"")]
+commit_result(""bobs_jedis"", copy_result(
+    new Data { name := ""jedis"" }
+));
+
+    "
